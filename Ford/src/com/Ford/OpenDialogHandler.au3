@@ -1,0 +1,10 @@
+$title = WinGetTitle($CmdLine[1]); retrives whole window title
+WinWait("[CLASS:#32770]")
+WinActive($title)
+WinActivate($title)
+WinWaitActive($title)
+send("!n")
+Sleep(500)
+Send($CmdLine[2])
+Sleep(200)
+Send("!o")

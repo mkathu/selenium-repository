@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/cucumber-core-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/cucumber-html-0.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/cucumber-java-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/cucumber-junit-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/gherkin-2.11.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cucumber/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-assistedinject-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-grapher-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-jmx-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-jndi-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-multibindings-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-persist-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-servlet-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-spring-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-struts2-plugin-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/guice-throwingproviders-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guice-4.0-beta/javax.inject.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/poi-3.9/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/reportng-1.1.4/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/reportng-1.1.4/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/cssparser-0.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/guava-14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/htmlunit-2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/htmlunit-core-js-2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/httpcore-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/httpmime-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/nekohtml-1.9.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/operadriver-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/phantomjsdriver-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/selenium-java-2.35.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/selenium-java-2.35.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/ECLPISE AND CQ/LIB/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Documents/Sikuli/libs/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="C:/selenium-server-standalone-2.33.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mkarthik/Downloads/selenium-server-standalone-2.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-antlr.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-bcel.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-bsf.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-log4j.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-oro.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-regexp.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-resolver.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-apache-xalan2.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-commons-net.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-jai.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-javamail.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-jdepend.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-jmf.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-jsch.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-junit.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-junit4.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-netrexx.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-swing.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ant-testutil.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/dsn.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/gimap.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-assistedinject-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-grapher-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-jmx-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-jndi-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-multibindings-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-persist-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-servlet-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-spring-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-struts2-plugin-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/guice-throwingproviders-4.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/htmlunit-2.13.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/htmlunit-core-js-2.13.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/imap.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/javax.inject.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/mail.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/mailapi.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/nekohtml-1.9.19.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/phantomjsdriver-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/pop3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/selenium-java-2.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/selenium-java-2.38.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/smtp.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/CONDE_NAST_CQ_DAM_FINALS_V1/All Libs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
