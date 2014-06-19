@@ -257,13 +257,12 @@ public class ExcelToXml {
                         	   int colCount=0;
                         	   Iterator<Cell> celIterator = null;
                         	   celIterator=row.cellIterator();
-                        	   
+                        	   int mark=0;
                         	   while(/*celIterator.hasNext()*/colCount < 10)
                         	   {
                         		   cell=null;
                         		  int num= row.getRowNum();
                                   cell =row.getCell(colCount);
-                                  
                                   if(cell != null)
                                   {
                                          if(cell.getCellType() != Cell.CELL_TYPE_BLANK)
@@ -291,7 +290,15 @@ public class ExcelToXml {
                                                 			listOfTestSteps.add(testStepObject);
                                                 			testCaseObject.setLisOfTestSteps(listOfTestSteps);
                                                 			if(lisOfTestCase==null)
-                                                			{
+                                                			{String header=(String) headers.get(colCount);
+                                                      	  if(header.equalsIgnoreCase("Step_Description"))
+                                                    	  {
+                                                    		  ////System.out.println("creating teststep obj");
+                                                    		  testStepObject=new TestStepVo(); 
+                                                      		 // //System.out.println("test step object: "+testStepObject);
+                                                    		  String stepDescription=cell.getStringCellValue();
+                                                    		  testStepObject.setStep_Desceription(stepDescription);
+                                                    	  }
                                                 				lisOfTestCase=new ArrayList<TestCaseVO>();
                                                 			}
                                                 			lisOfTestCase.add(testCaseObject);
@@ -307,6 +314,7 @@ public class ExcelToXml {
                                                 	  String header=(String) headers.get(colCount);
                                                 	  if(header.equalsIgnoreCase("Test_Scenario"))
                                                 	  {
+                                                		  mark=num;
                                                 		  scenarioObject=new ScenarioVO();
                                                 		  String test_Scenario=cell.getStringCellValue();
                                                 		  //scenarioObject.scenarioName=test_Scenario;
@@ -440,10 +448,125 @@ public class ExcelToXml {
                                                 	 
                                                 }
                                          }
-                                         else //if(cell.getCellType() == Cell.CELL_TYPE_BLANK)
+                                         else 
                                          {
-                                        	 //System.out.println("col is blank: "+colCount);
-                                        	// break;
+                                        	 if(cell.getCellType() == Cell.CELL_TYPE_BLANK)
+                                        	 {
+                                        		 /*if((scenarioObject==null)&&(colCount==0))
+                                        		 {
+                                        			 System.out.println("scenario column is blank...");
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==1)&&(testCaseObject==null))
+                                        		 {
+                                        			 System.out.println("scenario object is created but testcase column is blank");
+                                        			 /*if ((listOfTestSteps!=null)&&(testStepObject!=null)) 
+                                                     {
+                                                  	   //System.out.println("addded step: "+testStepObject);
+                          							   listOfTestSteps.add(testStepObject);
+                          							   testStepObject=null;
+                          						      }
+                                            	  if((listOfTestSteps!=null) && (testCaseObject!=null))
+                                           		  {
+                                           			  System.out.println("assigning list: "+listOfTestSteps+" to test case: "+testCaseObject);
+                                           			  testCaseObject.setLisOfTestSteps(listOfTestSteps);
+                                                	  System.out.println(testCaseObject.TestScenario+" "+testCaseObject.TestCase_ID+" "+testCaseObject.TestCase_Name+" "+testCaseObject.TestCase_Summary+" "+testCaseObject.TestScenario+" "+testCaseObject.Type+" "+testCaseObject.lisOfTestSteps);
+                                           			  dummyOfTestSteps=listOfTestSteps;
+                                                	  listOfTestSteps=null;
+                                           			  //listCreateStep=false;
+                                           		  }
+                                            	  
+                                            	  if(listCreateTestCase==false)
+                                            	  {
+                                            		  lisOfTestCase=new ArrayList<TestCaseVO>();
+                                            		  listCreateTestCase=true;
+                                            		  listCreateStep=false;
+                                            	  }
+                                            	  if(testCaseObject!=null)
+                                                  {
+                                               	   lisOfTestCase.add(testCaseObject);
+                                               	   testCaseObject=null;
+                                               	   listCreateStep=false;
+                                                  }
+                                            	  if(testCaseObject==null)
+                                            	  {
+                                            		  testCaseObject=new TestCaseVO();
+                                            		  System.out.println("new testCaseObject: "+testCaseObject);
+                                           		  //String test_Scenario=scenarioObject.scenarioName;
+                                           		  //testCaseObject.setTestScenario(test_Scenario);
+                                            		  String header=(String) headers.get(colCount);
+                                            		  if(header.equalsIgnoreCase("TestCase_ID"))
+                                            		  {
+                                            			  String testCaseID="";
+                                            			  testCaseObject.setTestCase_ID(testCaseID);
+                                            		  }
+                                            	  } 
+                                        		 }*/
+                                        		 if((scenarioObject!=null)&&(colCount==2)&&(testCaseObject!=null)&&(num==mark))
+                                        		 {
+                                        		   String header=(String) headers.get(colCount);
+                                               	   if(header.equalsIgnoreCase("TestCase_Name"))
+                                               	   {
+                                               		  String testCaseName="";
+                                               		  testCaseObject.setTestCase_Name(testCaseName);
+                                               	   }
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==3)&&(testCaseObject!=null)&&(num==mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	     if(header.equalsIgnoreCase("Type"))
+                                               	     {
+                                               		  String type="";
+                                               		  testCaseObject.setType(type);
+                                               	     }
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==4)&&(testCaseObject!=null)&&(num==mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	     if(header.equalsIgnoreCase("TestCase_Summary"))
+                                               	     {
+                                               		  String testCase_Summary="";
+                                               		  testCaseObject.setTestCase_Summary(testCase_Summary);
+                                               	     }
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==5)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	  	 if(header.equalsIgnoreCase("Step_Description"))
+                                               	  	 {
+                                               		  testStepObject=new TestStepVo();
+                                               		  String stepDescription="";
+                                               		  testStepObject.setStep_Desceription(stepDescription);
+                                               	     }
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==7)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	     if(header.equalsIgnoreCase("Key_Word"))
+                                               	     {
+                                               		   String keyWord="";
+                                               		   testStepObject.setKeyWord(keyWord);
+                                               	     } 
+                                               	 }
+                                        		 if((scenarioObject!=null)&&(colCount==8)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                        			 if(header.equalsIgnoreCase("Test_Data"))
+                                        			 {
+                                        				 String testData="";
+                                        				 testStepObject.setTestData(testData);
+                                        			 }
+                                        		 }
+                                        		 if((scenarioObject!=null)&&(colCount==9)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	  	 if(header.equalsIgnoreCase("Xpath_Locator"))
+                                               	     {
+                                               	  		String xpathLocator="";
+                                               		    testStepObject.setXpathLocator(xpathLocator);
+                                               	     }
+                                        		 }
+                                        		 
+                                        	 }
                                          }
                                   //colCount++;
                         	   }
