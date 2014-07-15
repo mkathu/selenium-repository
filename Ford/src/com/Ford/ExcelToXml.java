@@ -283,7 +283,7 @@ public class ExcelToXml {
                                                 			scenarioObject.setLisOftestCases(lisOfTestCase);
                                                       	    //System.out.println(scenarioObject.TestScenario+" "+testCaseObject.TestCase_ID+" "+testCaseObject.TestCase_Name+" "+testCaseObject.TestCase_Summary+" "+testCaseObject.TestScenario+" "+testCaseObject.Type+" "+testCaseObject.lisOfTestSteps);
                                                 			dummyOfTestCase=lisOfTestCase;
-                                                			lisOfTestCase=null;
+                                                			//lisOfTestCase=null;--changing due to bug found due to one to many mapping
                                                 		}
                                                 		if(scenarioObject!=null)
                                                 		{
@@ -510,7 +510,7 @@ public class ExcelToXml {
                                                		  testCaseObject.setTestCase_Name(testCaseName);
                                                	   }
                                         		 }
-                                        		 if((scenarioObject!=null)&&(colCount==3)&&(testCaseObject!=null)&&(num==mark))
+                                        		 if((scenarioObject!=null)&&(colCount==3)&&(testCaseObject!=null)&&((num==mark)||(num!=mark)))
                                         		 {
                                         			 String header=(String) headers.get(colCount);
                                                	     if(header.equalsIgnoreCase("Type"))
