@@ -501,7 +501,8 @@ public class ExcelToXml {
                                             		  }
                                             	  } 
                                         		 }*/
-                                        		 if((scenarioObject!=null)&&(colCount==2)&&(testCaseObject!=null)&&(num==mark))
+                                        		/* as test case name is mandatory
+                                        		 *if((scenarioObject!=null)&&(colCount==2)&&(testCaseObject!=null)&&(num==mark))
                                         		 {
                                         		   String header=(String) headers.get(colCount);
                                                	   if(header.equalsIgnoreCase("TestCase_Name"))
@@ -509,24 +510,38 @@ public class ExcelToXml {
                                                		  String testCaseName="";
                                                		  testCaseObject.setTestCase_Name(testCaseName);
                                                	   }
-                                        		 }
+                                        		 }*/
                                         		 if((scenarioObject!=null)&&(colCount==3)&&(testCaseObject!=null)&&((num==mark)||(num!=mark)))
                                         		 {
-                                        			 String header=(String) headers.get(colCount);
-                                               	     if(header.equalsIgnoreCase("Type"))
-                                               	     {
-                                               		  String type="";
-                                               		  testCaseObject.setType(type);
-                                               	     }
+                                        			 if(testCaseObject.Type!=null)
+                                        			 {
+                                        				 System.out.println("already contains a value...");
+                                        			 }
+                                        			 else
+                                        			 {
+                                        				 String header=(String) headers.get(colCount);
+                                        				 if(header.equalsIgnoreCase("Type"))
+                                        				 {
+                                        					 String type="";
+                                        					 testCaseObject.setType(type);
+                                        				 }
+                                        			 }
                                         		 }
-                                        		 if((scenarioObject!=null)&&(colCount==4)&&(testCaseObject!=null)&&(num==mark))
+                                        		 if((scenarioObject!=null)&&(colCount==4)&&(testCaseObject!=null)&&((num==mark)||(num!=mark)))
                                         		 {
-                                        			 String header=(String) headers.get(colCount);
-                                               	     if(header.equalsIgnoreCase("TestCase_Summary"))
-                                               	     {
-                                               		  String testCase_Summary="";
-                                               		  testCaseObject.setTestCase_Summary(testCase_Summary);
-                                               	     }
+                                        			 if(testCaseObject.TestCase_Summary!=null)
+                                        			 {
+                                        				 System.out.println("already contains a value...");
+                                        			 }
+                                        			 else
+                                        			 {
+                                        				 String header=(String) headers.get(colCount);
+                                                   	     if(header.equalsIgnoreCase("TestCase_Summary"))
+                                                   	     {
+                                                   		  String testCase_Summary="";
+                                                   		  testCaseObject.setTestCase_Summary(testCase_Summary);
+                                                   	     }
+                                        			 }
                                         		 }
                                         		 if((scenarioObject!=null)&&(colCount==5)&&(testCaseObject!=null)&&(num!=mark))
                                         		 {
@@ -538,7 +553,7 @@ public class ExcelToXml {
                                                		  testStepObject.setStep_Desceription(stepDescription);
                                                	     }
                                         		 }
-                                        		 if((scenarioObject!=null)&&(colCount==7)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 if((scenarioObject!=null)&&(colCount==7)&&(testCaseObject!=null)&&(testStepObject!=null)&&(num!=mark))
                                         		 {
                                         			 String header=(String) headers.get(colCount);
                                                	     if(header.equalsIgnoreCase("Key_Word"))
