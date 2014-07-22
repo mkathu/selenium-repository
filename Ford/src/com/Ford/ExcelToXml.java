@@ -125,14 +125,20 @@ public class ExcelToXml {
    					String testCaseId=testCaseObject.TestCase_ID;
    					String testCaseSummary=testCaseObject.TestCase_Summary;
    					String testCaseType=testCaseObject.Type;
+   					String closeBrowser=testCaseObject.Close_browser;
    					System.out.println("testCaseName: "+testCaseName);
    					System.out.println("testCaseId: "+testCaseId);
    					System.out.println("testCaseSummary: "+testCaseSummary);
    					System.out.println("testCaseType: "+testCaseType);
+   					System.out.println("CloseBrowser: "+closeBrowser);
    					
    					Element testcasename = doc.createElement("testcasename");
    					testcasename.appendChild(doc.createTextNode(testCaseName));
    					testcase.appendChild(testcasename);
+   					
+   					Element clBrowser = doc.createElement("closeBrowser");
+   					clBrowser.appendChild(doc.createTextNode(closeBrowser));
+   					testcase.appendChild(clBrowser);
    					
    					Element testcaseid = doc.createElement("testcaseid");
    					testcaseid.appendChild(doc.createTextNode(testCaseId));
@@ -258,7 +264,7 @@ public class ExcelToXml {
                         	   Iterator<Cell> celIterator = null;
                         	   celIterator=row.cellIterator();
                         	   int mark=0;
-                        	   while(/*celIterator.hasNext()*/colCount < 10)
+                        	   while(/*celIterator.hasNext()*/colCount <= 10)
                         	   {
                         		   cell=null;
                         		  int num= row.getRowNum();
@@ -445,6 +451,15 @@ public class ExcelToXml {
                                                 		  testStepObject.setXpathLocator(xpathLocator);
                                                 	  }
                                                 	} 
+                                                	if(colCount==10)
+                                                	{
+                                                		String header=(String) headers.get(colCount);
+                                                  	  if(header.equalsIgnoreCase("Close_Browser"))
+                                                  	  {
+                                                  		  String closeBrowser=cell.getStringCellValue();
+                                                  		  testCaseObject.setClose_browser(closeBrowser);
+                                                  	  }
+                                                	}
                                                 	 
                                                 }
                                          }
@@ -494,7 +509,7 @@ public class ExcelToXml {
                                            		  //String test_Scenario=scenarioObject.scenarioName;
                                            		  //testCaseObject.setTestScenario(test_Scenario);
                                             		  String header=(String) headers.get(colCount);
-                                            		  if(header.equalsIgnoreCase("TestCase_ID"))
+                                            		  if(headerl.equalsIgnoreCase("TestCase_ID"))
                                             		  {
                                             			  String testCaseID="";
                                             			  testCaseObject.setTestCase_ID(testCaseID);
@@ -578,6 +593,22 @@ public class ExcelToXml {
                                                	     {
                                                	  		String xpathLocator="";
                                                		    testStepObject.setXpathLocator(xpathLocator);
+                                               	     }
+                                        		 }
+                                        		 if((colCount==10)&&(testCaseObject!=null)&&(num!=mark))
+                                        		 {
+                                        			 String header=(String) headers.get(colCount);
+                                               	  	 if(header.equalsIgnoreCase("Close_Browser"))
+                                               	     {
+                                               	  		 if(testCaseObject.Close_browser==null)
+                                               	  		 {
+                                               	  			 String closeBrowser="no";
+                                               	  			 testCaseObject.setClose_browser(closeBrowser);
+                                               	  		 }
+                                               	  		 else
+                                               	  		 {
+                                               	  			 System.out.println("already yes/no assigned...");
+                                               	  		 }
                                                	     }
                                         		 }
                                         		 

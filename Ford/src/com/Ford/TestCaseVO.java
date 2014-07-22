@@ -10,6 +10,10 @@ public class TestCaseVO
 	String TestCase_Name;
 	String Type;
 	String TestCase_Summary;
+	String Close_browser;
+	public void setClose_browser(String close_browser) {
+		Close_browser = close_browser;
+	}
 	List<TestStepVo>lisOfTestSteps;
 	
 	public void setLisOfTestSteps(List<TestStepVo> lisOfTestSteps) {
