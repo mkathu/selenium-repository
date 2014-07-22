@@ -582,7 +582,7 @@ public class ExcelToXml {
                                         			 String header=(String) headers.get(colCount);
                                         			 if(header.equalsIgnoreCase("Test_Data"))
                                         			 {
-                                        				 String testData="";
+                                        				 String testData="NULL";
                                         				 testStepObject.setTestData(testData);
                                         			 }
                                         		 }
